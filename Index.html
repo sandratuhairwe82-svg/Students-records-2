@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Records System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <img src="bbuc-logo.png" alt="BBUC Logo" class="logo">
+
+    <h2>Student Registration Form</h2>
+
+    <form id="studentForm">
+        <input type="text" id="regNo" placeholder="Registration Number" required>
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="number" id="age" placeholder="Age" required>
+        <input type="text" id="gender" placeholder="Gender" required>
+        <input type="text" id="course" placeholder="Course" required>
+        <input type="text" id="faculty" placeholder="Faculty" required>
+        <input type="text" id="year" placeholder="Year of Study" required>
+        <input type="text" id="semester" placeholder="Semester" required>
+        <input type="text" id="phone" placeholder="Phone Number" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="nationality" placeholder="Nationality" required>
+        <input type="text" id="district" placeholder="District" required>
+        <input type="text" id="religion" placeholder="Religion" required>
+        <input type="text" id="status" placeholder="Status" required>
+        <input type="date" id="dob" required>
+
+        <button type="submit">Add Student</button>
+    </form>
+
+    <h2>Student Records</h2>
+
+    <input type="text" id="search" placeholder="Search student..." onkeyup="searchStudent()">
+
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Reg No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Course</th>
+                <th>Faculty</th>
+                <th>Year</th>
+                <th>Semester</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Nationality</th>
+                <th>District</th>
+                <th>Religion</th>
+                <th>Status</th>
+                <th>DOB</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
