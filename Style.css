@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("bbuc-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+    display: block;
+    margin: auto;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+form button {
+    grid-column: span 3;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
